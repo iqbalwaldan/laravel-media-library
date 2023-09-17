@@ -11,5 +11,5 @@ class Post extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia;
 
-    protected $guarded = [];
+    protected $guarded = ['id'];
 }
